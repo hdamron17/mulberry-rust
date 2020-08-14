@@ -12,4 +12,5 @@ license = "BSD-3-Clause"
 keywords = ["robotics", "transforms"]
 
 [dependencies]
-nalgebra = { version = "0.21.1", optional = true }
+alga = { version = "0.9.3", optional = true }
+nalgebra = { version = "0.21.1", optional = true, features = ["alga"] }
