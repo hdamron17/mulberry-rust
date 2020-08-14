@@ -1,6 +1,6 @@
 [package]
 name = "mulberry"
-version = "0.0.1"
+version = "0.1.0"
 authors = ["Hunter Damron <hdamron1594@yahoo.com>"]
 edition = "2018"
 description = "Coordinate transformation tree with a focus on efficiency."
