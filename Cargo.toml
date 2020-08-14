@@ -1,0 +1,14 @@
+[package]
+name = "mulberry"
+version = "0.0.0"
+authors = ["Hunter Damron <hdamron1594@yahoo.com>"]
+edition = "2018"
+description = "Coordinate transformation tree with a focus on efficiency."
+repository = "https://github.com/hdamron17/mulberry-rust/"
+readme = "README.md"
+categories = ["science::robotics", "mathematics"]
+license = "BSD-3-Clause"
+keywords = ["robotics", "transforms"]
+
+[dependencies]
+nalgebra = { version = "0.21.1", optional = true }
