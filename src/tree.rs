@@ -28,7 +28,7 @@ impl<K, T> Tree<K, T> {
 }
 
 impl<K: Eq + Hash + Clone, T: Group + Clone> Tree<K, T> {
-    pub fn setTransform(&mut self, transform: T, from_key: K, to_key: K) {
+    pub fn set_transform(&mut self, transform: T, from_key: K, to_key: K) {
         let from_to_key = (from_key, to_key);
         if self.transforms.contains_key(&from_to_key) {
             // Replace current transformation
@@ -56,7 +56,7 @@ impl<K: Eq + Hash + Clone, T: Group + Clone> Tree<K, T> {
         }
     }
 
-    pub fn getDirectTransform(&self, from_key: K, to_key: K) -> Option<T> {
+    pub fn get_direct_transform(&self, from_key: K, to_key: K) -> Option<T> {
         let from_to_key = (from_key, to_key);
         self.transforms.get(&from_to_key).map(T::clone).or_else(|| {
             let to_from_key = (from_to_key.1, from_to_key.0);

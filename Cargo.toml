@@ -14,3 +14,7 @@ keywords = ["robotics", "transforms"]
 [dependencies]
 alga = { version = "0.9.3", optional = true }
 nalgebra = { version = "0.21.1", optional = true, features = ["alga"] }
+
+[[example]]
+name = "simple"
+required-features = ["alga", "nalgebra"]
