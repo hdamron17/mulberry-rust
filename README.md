@@ -1,3 +1,6 @@
+[![crates.io](https://meritbadge.herokuapp.com/mulberry)](https://crates.io/crates/mulberry)
+[![BSD-3 license](https://img.shields.io/badge/license-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
 # mulberry
 Coordinate transformation tree with a focus on efficiency
 
